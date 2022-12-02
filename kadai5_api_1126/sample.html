@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ルート検索</title>
+</head>
+
+<body>
+
+ 
+  <h1>ルート検索</h1>
+  <div class="directionsContainer">
+    <div id="directionsPanel" style="width:30px;height:30px"></div>
+    <div id="directionsItinerary" style="width:30px;height:30px"></div>
+</div>
+  <div id="myMap" style="width:600px;height:600px"></div>
+
+  <button id="start_btn">スタート</button>
+  <button id="stop_btn">ストップ</button>
+  <!-----00:ルート表示ボタンを追加------->
+  <button id="write_btn">ルート表示</button>
+
+  <!-- jQuery&GoogleMapsAPI -->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=Allg-zaS-8ohrXMsaWkTeAS1rBSZk1Bb-W0PLT9jmfgc-wKA5sUPx0iQkpoU4shw' async
+    defer></script>
+  <script src="js/BmapQuery.js"></script>
+  <script src="js/sample.js"></script>
+  
+</body>
+
+</html>
+
